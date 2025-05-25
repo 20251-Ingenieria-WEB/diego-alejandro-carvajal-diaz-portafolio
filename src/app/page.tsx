@@ -1,0 +1,16 @@
+// import Image from "next/image";
+
+import NameCard from "@/components/molecules/nameCard";
+
+export default function Home() {
+  return (
+    <main className="bg-gray-900 py-10 h-screen justify-items-center">
+      <h1 className="font-bold text-6xl text-slate-400 text-center mb-20">
+        &lt;<span className="text-[#338833]">DiegoACDev</span> /&gt;
+      </h1>
+      <section className="mx-6 w-full rounded-2xl  max-w-screen-lg justify-items-center">
+        <NameCard />
+      </section>
+    </main>
+  );
+}
