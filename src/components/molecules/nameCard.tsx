@@ -1,17 +1,19 @@
+import Image from "next/image";
+
 export default function NameCard() {
   return (
-    <section className="mx-6 w-full rounded-2xl  max-w-screen-lg justify-items-center">
+    <section className="mx-6 w-full rounded-2xl pb-20 max-w-screen-lg justify-items-center">
       <div className="relative flex items-start">
         {/* Vertical Line */}
         <div
-          className="absolute left-0 bottom-0 border-b-[100px] border-b-green-500
+          className="absolute left-0 bottom-0 border-b-[100px] border-b-[#65a30d]
           border-r-[2px] border-r-transparent"
         ></div>
 
         {/* Horizontal Line */}
         <div
           className="absolute left-0 bottom-0 border-t-[2px] border-t-transparent
-          border-l-[50px] border-l-green-500 "
+          border-l-[50px] border-l-[#65a30d] "
         ></div>
         <div className="pr-6 pl-7">
           <h1 className="text-2xl font-bold text-slate-400 pb-4">
@@ -24,10 +26,14 @@ export default function NameCard() {
             while contributing to innovative projects.
           </p>
         </div>
-        <div className="md:w-1/3 flex justify-center">
-          <div className="size-48 bg-gray-700 rounded-xl flex items-center justify-center">
-            <span className="text-slate-500">Espacio para imagen</span>
-          </div>
+        <div className="h-min-50 w-min-100">
+          <Image
+            src="/diego.jfif" // Place your image in public/profile.jpg
+            alt="Profile"
+            width={500}
+            height={500}
+            className="rounded-xl"
+          />
         </div>
       </div>
     </section>
