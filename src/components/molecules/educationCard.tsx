@@ -15,7 +15,7 @@ export default function EducationCard() {
         development, version control, and UI/UX best practices, laying the
         groundwork for my continued growth as a developer.
       </p>
-      <div className="bg-gray-800 rounded-xl">
+      <div className="bg-gray-800 rounded-xl px-5">
         {certificates.map((certificate, index) => (
           <div key={certificate.name} className="py-4">
             <CertificateText

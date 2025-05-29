@@ -1,9 +1,6 @@
 // import Image from "next/image";
 
-import NameCard from "@/components/molecules/nameCard";
-import KnowledgeSection from "@/components/molecules/knowledgeSection";
-import EducationCard from "@/components/molecules/educationCard";
-import PortfolioCard from "@/components/molecules/portfolioCard";
+import PortfolioLP from "@/components/organisms/portfolioLP";
 
 export default function Home() {
   return (
@@ -11,12 +8,7 @@ export default function Home() {
       <h1 className="font-bold text-6xl text-slate-400 text-center mb-20">
         &lt;<span className="text-[#65a30d]">DiegoACDev</span> /&gt;
       </h1>
-      <section className="mx-6 w-full rounded-2xl  max-w-screen-lg justify-items-center">
-        <NameCard />
-        <KnowledgeSection />
-        <EducationCard />
-        <PortfolioCard />
-      </section>
+      <PortfolioLP />
     </main>
   );
 }

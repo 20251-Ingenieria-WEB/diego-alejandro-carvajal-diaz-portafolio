@@ -61,32 +61,32 @@ export function getPortfolioItems() {
   return [
     {
       img: "/citasaludportfolio.jfif",
-      title: "CitaSalud Fabrica Escuela",
-      desc: "A modern e-commerce platform with React and Node.js.",
+      title: "CitaSalud CodeFactory",
+      desc: "A website that allows booking and scheduling medical appointments.",
       url: "https://ep-21-f1citasalud-front.vercel.app/login", // internal link
     },
     {
-      img: "/citasaludportfolio.jfif",
-      title: "Portfolio Website",
-      desc: "Personal portfolio built with Next.js and Tailwind CSS.",
+      img: "/gamification.jpeg",
+      title: "Gamificación Niños pequeños",
+      desc: "A mobile application to diagnose respiratory and diarrheal diseases in children under 6 years old.",
       url: "/",
     },
     {
-      img: "/citasaludportfolio.jfif",
-      title: "Chat Application",
-      desc: "Real-time chat app using Socket.io and Express.",
-      url: "/", // external link
-    },
-    {
-      img: "/citasaludportfolio.jfif",
-      title: "Blog Platform",
-      desc: "A full-featured blog with Markdown support.",
+      img: "/dogeland.jpeg",
+      title: "DogeLand",
+      desc: "A website that displays data about different types of dogs, showing characteristics such as breeds or sub-breeds along with randomized images.",
       url: "/",
     },
     {
-      img: "/citasaludportfolio.jfif",
-      title: "Task Manager",
-      desc: "Productivity tool for managing daily tasks.",
+      img: "/w3o.jpeg",
+      title: "w3o (WIP)",
+      desc: "Prototype of an RTS (Real-Time Strategy) game featuring slow, steady civilization evolution. Currently a work in progress.",
+      url: "/",
+    },
+    {
+      img: "/backendAAA.jpeg",
+      title: "Gestión de vuelos Code Factory",
+      desc: "A SpringBoot-based backend project for a flight management web application, using GraphQL APIs and JWT for authentication/authorization modules.",
       url: "/",
     },
   ];
