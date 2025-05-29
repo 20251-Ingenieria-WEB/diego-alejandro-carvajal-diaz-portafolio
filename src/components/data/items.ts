@@ -60,7 +60,7 @@ export function getCertificateItems() {
 export function getPortfolioItems() {
   return [
     {
-      img: "/citasaludportfolio.jfif",
+      img: "/citasalud.jpeg",
       title: "CitaSalud CodeFactory",
       desc: "A website that allows booking and scheduling medical appointments.",
       url: "https://ep-21-f1citasalud-front.vercel.app/login", // internal link

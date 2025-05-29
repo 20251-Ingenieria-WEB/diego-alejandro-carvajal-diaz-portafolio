@@ -29,7 +29,7 @@ export default function NameCard() {
           </div>
           <div className="m-10 flex  items-center justify-center">
             <Image
-              src="/diego.jfif"
+              src="/diego.jpeg"
               alt="Profile"
               width={1000}
               height={1000}

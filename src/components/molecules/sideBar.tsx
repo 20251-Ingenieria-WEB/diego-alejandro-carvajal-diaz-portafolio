@@ -4,7 +4,7 @@ export default function SideBar() {
   return (
     <aside className="fixed top-0 left-0 h-screen w-64 bg-gray-800 p-6 flex-col rounded-r-lg shadow-md hidden md:flex z-40">
       <Image
-        src="/diego.jfif" // Place your image in public/profile.jpg
+        src="/diego.jpeg" // Place your image in public/profile.jpg
         alt="Profile"
         width={120}
         height={120}
