@@ -1,6 +1,6 @@
 export default function LinkBar() {
   return (
-    <section className="fixed top-50% right-0 bg-gray-800 p-3 flex-col self-center rounded-l-xl shadow-md hidden md:flex">
+    <section className="fixed top-1/2 right-0 bg-gray-800 p-3 flex-col self-center rounded-l-xl shadow-md hidden md:flex">
       <a
         href="https://www.linkedin.com/in/diego-acd/"
         target="_blank"

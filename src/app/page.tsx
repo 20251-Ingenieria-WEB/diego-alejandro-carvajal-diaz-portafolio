@@ -2,6 +2,8 @@
 
 import NameCard from "@/components/molecules/nameCard";
 import KnowledgeSection from "@/components/molecules/knowledgeSection";
+import EducationCard from "@/components/molecules/educationCard";
+import PortfolioCard from "@/components/molecules/portfolioCard";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <section className="mx-6 w-full rounded-2xl  max-w-screen-lg justify-items-center">
         <NameCard />
         <KnowledgeSection />
+        <EducationCard />
+        <PortfolioCard />
       </section>
     </main>
   );
